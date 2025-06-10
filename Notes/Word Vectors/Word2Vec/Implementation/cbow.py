@@ -1,12 +1,12 @@
 # Re-import necessary modules
 import tensorflow as tf
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, Embedding, Lambda
-from tensorflow.keras.preprocessing.text import Tokenizer
-from tensorflow.keras.utils import to_categorical
-import numpy as np
+from tensorflow.keras.models import Sequential # type: ignore
+from tensorflow.keras.layers import Dense, Embedding, Lambda # type: ignore
+from tensorflow.keras.preprocessing.text import Tokenizer # type: ignore
+from tensorflow.keras.utils import to_categorical # type: ignore
 import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA
+import numpy as np
 
 # Define the corpus
 corpus = [

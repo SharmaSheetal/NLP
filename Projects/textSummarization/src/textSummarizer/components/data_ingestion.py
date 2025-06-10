@@ -10,7 +10,7 @@ class DataIngestion:
         self.config = config
         
     def download_file(self):
-        if not os.path.exists(self.config.local_data_file) or get_size(self.config.local_data_path) == 0:
+        if not os.path.exists(self.config.local_data_file) or get_size(self.config.local_data_file) == 0:
             filename,header=request.urlretrieve(
                 url=self.config.source_URL,
                 filename=self.config.local_data_file
