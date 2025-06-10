@@ -175,3 +175,6 @@ cython_debug/
 
 # ds store
 .DS_Store
+
+#artifact
+artifacts/*
